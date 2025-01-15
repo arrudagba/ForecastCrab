@@ -6,8 +6,11 @@ edition = "2021"
 [dependencies]
 dotenv = "0.15.0"
 get_if_addrs = "0.5.3"
-iced = "0.13.1"
 lazy_static = "1.5.0"
 reqwest = {version = "0.12.12", features = ["json"]}
 serde = {version = "1.0.217", features = ["derive"]}
 tokio = {version= "1.43.0", features = ["full"]}
+eframe = "0.30.0"
+image = "0.25.5"
+egui_extras = { version = "*", features = ["all_loaders"] }
+futures = "0.3.31"

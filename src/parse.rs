@@ -1,5 +1,5 @@
 use serde::Deserialize;
-use get_if_addrs::{IfAddr};
+use get_if_addrs::IfAddr;
 use std::env;
 use dotenv::dotenv;
 use lazy_static::lazy_static;
@@ -36,7 +36,7 @@ pub struct Wind {
 
 #[derive(Debug, Deserialize)]
 pub struct IpAddr{
-    pub region: String,
+    pub city: String,
 }
 
 impl WeatherData {
@@ -47,9 +47,10 @@ impl WeatherData {
             .await?
             .json::<WeatherData>()
             .await?;
-
+    
         Ok(response)
     }
+    
 }
 
 impl IpAddr{
