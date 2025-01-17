@@ -19,7 +19,7 @@ To run ForecastCrab, ensure you have the following:
 - **Rust** installed on your system. Download and install it from [Rust's official site](https://www.rust-lang.org/tools/install).
 - An active internet connection to fetch weather data from APIs.
 - API key(s) from the weather service(s) of your choice (e.g., OpenWeatherMap). [Sign up for a free API key here](https://openweathermap.org/api).
-- API key(s) from the ip-lookup service(s) of your choice (e.g., Ipinfo)[Sign up for a free API key here](https://ipinfo.io/products/ip-geolocation-api).
+- API key(s) from the ip-lookup service(s) of your choice (e.g., Ipinfo). [Sign up for a free API key here](https://ipinfo.io/products/ip-geolocation-api).
 
 ---
 
@@ -53,3 +53,4 @@ Open the app, and start exploring weather updates for your location or search fo
 
 ---
 ## 🎥 Example of usage
+https://github.com/user-attachments/assets/f229754d-53ff-4ac9-8b45-723028da65f2
