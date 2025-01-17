@@ -29,7 +29,7 @@ async fn main() -> Result<(), eframe::Error> {
             .with_resizable(false)
             .with_fullscreen(false)
             .with_maximize_button(false)
-            .with_icon(load_icon("./logo.png")),
+            .with_icon(load_icon("./icons/logo.png")),
         ..Default::default()
     };
 
@@ -262,7 +262,7 @@ fn display_weather(app: &mut MyApp, ui: &mut egui::Ui, api_url: String, ctx: &eg
         } else if let Some(_) = &app.error_message {
             not_found(ui);
         } else {
-            ui.label("Carregando dados...");
+            ui.label("Loading data...");
         }
 
         ctx.request_repaint();
